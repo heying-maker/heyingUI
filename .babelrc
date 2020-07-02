@@ -1,0 +1,23 @@
+{
+    "presets":[
+        [
+            "@babel/preset-env",
+            {
+                "targets":">0.25%, not dead"   // 规定输出代码目标环境是份额大于0.25%的浏览器
+            }
+        ],
+        "@babel/preset-react"  // 项目中使用了react
+    ],
+    "plugins": [   // 配置babel插件
+        "@babel/plugin-transform-runtime",
+        "@babel/plugin-transform-modules-commonjs",
+        [
+            "@babel/plugin-proposal-decorators",
+            {
+                "legacy":true
+            }
+        ],
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-proposal-object-rest-spread"
+    ]
+}
