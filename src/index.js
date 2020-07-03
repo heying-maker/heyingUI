@@ -1,10 +1,9 @@
 
-import React, { Component } from 'react';
+import Radio from './radio'
 
 
-
-export default class MyComponent extends Component {
-    render() {
-        return (<div>A new Component</div>)
-    }
+export {
+    Radio
 }
+
+

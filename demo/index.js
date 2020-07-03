@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import MyComponent from '../src/index'
+import {Radio }from '../src/index'
 
 const Demo  = () => {
   return <div>
     <h1>组件预览：</h1>
-    <MyComponent />
+    单选框：<Radio clsPrefix="11" disabled="true"/>
   </div>
 }
 
